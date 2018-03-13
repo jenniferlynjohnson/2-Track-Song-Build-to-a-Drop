@@ -2,6 +2,8 @@ use_bpm 100
 x=2
 i=0
 m = :ambi_choir
+kanye_vocals = "C:/Users/jennifer_johnson/Desktop/My_samples/love_lockdown_full_song__.wav"
+
 
 array=[ :c2, :c2, :e2, :f2]
 s= [0.25, 2, 0.75, 1.25]
@@ -32,6 +34,7 @@ end
   build_up
 end
 
+use_bpm 75
 live_loop :drums do
   sample :drum_heavy_kick
   sleep 0.5
@@ -51,4 +54,8 @@ live_loop :bass do
     i=i+1
   end
   i=0
+end
+live_loop :kanye_vocals do
+  sample kanye_vocals
+  sleep 16 # this sleep is 8 because the sleep of both loops above are 4 allowing us to stay 'in pocket'
 end
