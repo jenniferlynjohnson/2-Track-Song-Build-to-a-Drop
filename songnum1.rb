@@ -11,15 +11,8 @@ end
 
 
 
-1.times  do
+
   build_up
-
-end
-
-live_loop :meh do
-  sleep 8
-  build_up 
-end
 
 live_loop :drums do
   drum
