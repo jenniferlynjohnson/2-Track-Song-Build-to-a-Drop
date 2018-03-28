@@ -19,7 +19,7 @@ live_loop :tuba do #sleep=8
   tuba :C2
 end
 
-live_loop :base do #sleep=8
+live_loop :bass1 do #sleep=8
   bass
 end
 
