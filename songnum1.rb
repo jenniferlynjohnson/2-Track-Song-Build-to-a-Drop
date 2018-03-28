@@ -3,7 +3,10 @@
 
 
 
+ 
   build_up
+
+
 
 live_loop :drums do
   drum
@@ -18,4 +21,3 @@ live_loop :bass do
   end
   i=0
 end
-=end
